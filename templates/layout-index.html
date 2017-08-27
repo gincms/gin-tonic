@@ -5,6 +5,7 @@
   <title>{% block title %}{{gin.site.name}}{% endblock %}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{{gin.site.description}}">
+  <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
   <link rel="stylesheet" href="{{asset('css/main.css')}}">
   <link rel="canonical" href="{{url()}}">
   {{ head() | safe }}
@@ -15,7 +16,14 @@
     <div class="container">
       <div class="columns">
         <div class="column is-10 is-offset-1 is-6-desktop is-offset-4-desktop">
-          {% block header %}{% endblock %} 
+          <h1 class="title">
+            <a href="{{content.url}}">{{content.title}}</a>
+            <img class="gin-logo" src="{{asset('img/logo.svg')}}">
+          </h1>
+          {% if content.subtitle %}
+          <h2 class="subtitle">{{content.subtitle}}</h2>
+          {% endif %}
+
         </div>
       </div>
     </div>

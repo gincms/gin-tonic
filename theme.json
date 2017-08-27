@@ -3,6 +3,6 @@
   "title": "Gin Whitepaper",
   "description": "A simple theme for Gin CMS.",
   "image": "screenshot.png",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "repository": "https://github.com/gincms/gin-whitepaper.git"
 }
