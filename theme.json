@@ -1,8 +1,8 @@
 {
   "name": "gin-whitepaper",
   "title": "Gin Whitepaper",
-  "description": "Source code for Whitepaper Gin theme.",
+  "description": "A simple theme for Gin CMS.",
   "image": "screenshot.png",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "repository": "https://github.com/gincms/gin-whitepaper.git"
 }
